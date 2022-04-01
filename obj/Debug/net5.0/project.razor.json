@@ -15617,6 +15617,22 @@
     "CSharpLanguageVersion": 900
   },
   "RootNamespace": "Factory",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Engineers\\Index.cshtml",
+      "TargetPath": "Views\\Engineers\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Machines\\Index.cshtml",
+      "TargetPath": "Views\\Machines\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }
