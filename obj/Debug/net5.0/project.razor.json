@@ -15619,6 +15619,11 @@
   "RootNamespace": "Factory",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Engineers\\Index.cshtml",
       "TargetPath": "Views\\Engineers\\Index.cshtml",
       "FileKind": "mvc"
