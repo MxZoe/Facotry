@@ -8,7 +8,7 @@ namespace ToDoList.Models
   public class ToDoListContextFactory : IDesignTimeDbContextFactory<FactoryContext>
   {
 
-    ToDoListContext IDesignTimeDbContextFactory<FacotyContext>.CreateDbContext(string[] args)
+    FactoryContext IDesignTimeDbContextFactory<FactoryContext>.CreateDbContext(string[] args)
     {
       IConfigurationRoot configuration = new ConfigurationBuilder()
           .SetBasePath(Directory.GetCurrentDirectory())

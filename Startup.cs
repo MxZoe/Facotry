@@ -25,7 +25,7 @@ namespace Facotry
       services.AddMvc();
 
       services.AddEntityFrameworkMySql()
-        .AddDbContext<HairSalonContext>(options => options
+        .AddDbContext<FactoryContext>(options => options
         .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
     }
 
@@ -43,7 +43,7 @@ namespace Facotry
       
       app.Run(async (context) =>
       {
-        await context.Response.WriteAsync("Hello World!");
+        await context.Response.WriteAsync("Something went wrong!");
       });
     }
   }
