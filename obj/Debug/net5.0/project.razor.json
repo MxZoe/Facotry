@@ -15619,6 +15619,11 @@
   "RootNamespace": "Factory",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Machines\\Delete.cshtml",
+      "TargetPath": "Views\\Machines\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15629,6 +15634,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Machines\\AddEngineer.cshtml",
+      "TargetPath": "Views\\Machines\\AddEngineer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Machines\\Details.cshtml",
+      "TargetPath": "Views\\Machines\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Machines\\Edit.cshtml",
+      "TargetPath": "Views\\Machines\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -15636,6 +15656,11 @@
     {
       "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Machines\\Index.cshtml",
       "TargetPath": "Views\\Machines\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\zwein\\epicodus\\c#\\Factory\\Views\\Machines\\Create.cshtml",
+      "TargetPath": "Views\\Machines\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],
