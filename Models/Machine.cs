@@ -2,9 +2,9 @@ using System.Collections.Generic;
 
 namespace Factory.Models
 {
-  public class Item
+  public class Machine
   {
-    public Item()
+    public Machine()
     {
       this.JoinEntities = new HashSet<MachineEngineer>();
     }
