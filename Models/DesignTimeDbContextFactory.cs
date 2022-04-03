@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 
-namespace ToDoList.Models
+namespace Factory.Models
 {
-  public class ToDoListContextFactory : IDesignTimeDbContextFactory<FactoryContext>
+  public class FactoryContextFactory : IDesignTimeDbContextFactory<FactoryContext>
   {
 
     FactoryContext IDesignTimeDbContextFactory<FactoryContext>.CreateDbContext(string[] args)
