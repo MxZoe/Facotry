@@ -18,9 +18,14 @@
 This console application lets a user add engineers and machines. This program uses SQL tables with a many to many relationship for engineers and machines.
 ## Setup/Installation Requirements
 
-* Must have mySQL workbench installed. You can download it from https://www.mysql.com/products/workbench/
-* Go to https://github.com/MxZoe/HairSalon to clone or download the project. 
-* To use the program, go to the HairSalon folder and run "dotnet restore" followed by"dotnet run."
+* Go to https://github.com/MxZoe/Factory to clone or download the project. 
+* You must then create a file named appsettings.json and add it to your .gitignore file
+* The appsettings.json file should then have the following:
+{
+    "ConnectionStrings": {
+        "DefaultConnection": "Server=localhost;Port=3306;database=zoe_weinstein;uid=root;pwd=[YOUR-PASSWORD-HERE];"
+    }
+}
 ## Known Bugs
   None
 
