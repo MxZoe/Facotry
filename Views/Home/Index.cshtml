@@ -3,8 +3,7 @@
 }
 
 @using Factory.Models
-@model Factory.Models.MachineEngineer
-
+@model List<Factory.Models.MachineEngineer>;
 
   
 <div class="header">
@@ -14,13 +13,13 @@
 <div class="row">
   <div class="col-6">
     <h3>Machines</h3>
-    @if (@Model.MachineId == 0)
+    @if (@Model.Count == 0)
     {
-      <h3>No machines have been added yet!</h3>
+      <h5>No machines have been added yet!</h5>
     }
-    @foreach (Machine machine in Model.Machine)
+    @foreach (MachineEngineer machineEngineer in Model)
     {
-      <li>@Html.ActionLink($"{machine.Machine}", "Details", new { id = machineEngineer.MachineId })</li>
+      <li><a href='/machines/details/@machineEngineer.Machine.MachineId'>@machineEngineer.Machine.Description</a></li>
     }
 
     <p>@Html.ActionLink("See all machines", "Index", "Machines")</p>
@@ -29,6 +28,14 @@
   </div>
   <div class="col-6">
     <h3>Engineers</h3>
+        @if (@Model.Count == 0)
+    {
+      <h5>No machines have been added yet!</h5>
+    }
+    @foreach (MachineEngineer machineEngineer in Model)
+    {
+      <li><a href='/engineers/details/@machineEngineer.Engineer.EngineerId'>@machineEngineer.Engineer.Name</a></li>
+    }
     <p>@Html.ActionLink("See all engineers", "Index", "Engineers")</p>
     <p>@Html.ActionLink("Add an engineer", "Create", "Engineers")</p>
   </div>

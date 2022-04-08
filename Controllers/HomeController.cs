@@ -1,9 +1,13 @@
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using Factory.Models;
 using System.Collections.Generic;
+using System.Linq;
 
 
-namespace ToDoList.Controllers
+
+namespace Factory.Controllers
 {
     public class HomeController : Controller
     {
@@ -18,8 +22,8 @@ namespace ToDoList.Controllers
       [HttpGet("/")]
       public ActionResult Index()
       {
-        
-        return View(_db.MachineEngineer);
+        List<MachineEngineer> model = _db.MachineEngineer.ToList();
+        return View(model);
       }
 
     }
