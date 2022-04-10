@@ -1,4 +1,4 @@
-# Facoty
+# Factory
 
 #### By _**Zoe Weinstein**_
 
