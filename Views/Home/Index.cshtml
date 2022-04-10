@@ -19,7 +19,7 @@
     }
     @foreach (MachineEngineer machineEngineer in Model)
     {
-      <li><a href='/machines/details/@machineEngineer.Machine.MachineId'>@machineEngineer.Machine.Description</a></li>
+      <li><a href='/engineers/details/@machineEngineer.Engineer.EngineerId'>@machineEngineer.Engineer.Name</a></li>
     }
 
     <p>@Html.ActionLink("See all machines", "Index", "Machines")</p>
